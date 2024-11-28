@@ -779,12 +779,24 @@ footer a{
     form {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
     }
+
 
     input[type="submit"] {
         position: relative;
         left: 3px;
         width: 80%;
+    }
+
+    label[for="prefEmail"], label[for="prefText"], label[for="prefPhone"] {
+        margin-right: 0rem;
+    }
+
+    fieldset {
+        border: none;
+        padding: 0;
+        display: flex;
     }
 }
 
